@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 80px);
     background-image: url('https://climatecommunication.yale.edu/wp-content/uploads/2023/01/pollution-2043666_1280-768x350.png');
     background-size: cover;
     background-position: center;

@@ -13,7 +13,7 @@
   <body>
     <nav>
       <div class="logo">
-        <a href="#">Logo</a>
+        <a href="#">Dooms Day!!</a>
       </div>
       <div class="menu">
         <ul>
@@ -38,15 +38,24 @@
       <div class="hero-content">
         <h1>Welcome to Our Site</h1>
         <p>
-          We provide the best services in the industry. Our team of experts is
-          dedicated to meeting your needs.
+          Select the year you were born and click on search button
         </p>
         <form action="#" method="get">
-          <input type="text" placeholder="Search..." />
-          <input type="submit" value="Search" />
+            <select name="" id="select">
+                <!-- <option value="">2001</option>
+                <option value="">2002</option> -->
+            </select>
+          <!-- <input type="submit" value="Search" /> -->
+          <a class="searchLink" id="searchCarbon" href="#calcResults" >
+            Search
+          </a>
         </form>
       </div>
     </section>
+
+    <!-- <button id="red">
+        sdxvv
+    </button> -->
 
     <div class="resultsWrapper" id="calcResults">
         <div class="hResultsWrapper">
@@ -59,8 +68,8 @@
     
             <div class="resultsBox">
                 <p>
-                    <span class="resultsTextLine1">In <span id="yearVar">2019</span>, there were</span><br>
-                    <span class="resultsTextLine2"><span id="yearPpm">412.2</span> ppm</span><br>
+                    <span class="resultsTextLine1">In <span id="yearVar">2021</span>, there were</span><br>
+                    <span class="resultsTextLine2"><span id="yearPpm">416.449</span> ppm</span><br>
                     <span class="resultsTextLine3">carbon in the atmosphere.</span>
                 </p>
             </div>
@@ -70,7 +79,7 @@
             <div class="resultsBox">
                 <p>
                     <span class="resultsTextLine1">Today, there are</span><br>
-                    <span class="resultsTextLine2">416.43 ppm</span><br>
+                    <span class="resultsTextLine2">416.449 ppm</span><br>
                     <span class="resultsTextLine3">carbon in the atmosphere.</span>
                 </p>
             </div>
@@ -80,34 +89,36 @@
             <div class="resultsBox">
                 <p>
                     <span class="resultsTextLine1">That's an increase of</span><br>
-                    <span class="resultsTextLine2"><img src="/content/dam/tnc/nature/en/icons/general-icons/Icon_Red-Upward-Arrow.svg"><span id="ppmCalc">4.23</span> ppm</span><br>
+                    <span class="resultsTextLine2">
+                        &#8593;
+                        <span id="ppmCalc">0</span> ppm</span><br>
                     <span class="resultsTextLine3">during your lifetime thus far.</span>
                 </p>
             </div>
     
             <div class="verticalLine"></div>
     
-            <div class="resultsBox stat4">
+            <!-- <div class="resultsBox stat4">
                 <p class="resultsYearPreText">
                     <span class="resultsTextLine1 resultsYearPreText">These levels are speeding up. As a comparison, carbon only increased</span><br>
                     <span class="resultsTextYear"><span id="yearCalc" class="resultsTextLine2">11.17</span> ppm</span><br>
                 <span class="resultsTextLine1 resultsYearPreText">during the <span id="userAgePrevious">4</span> years <strong>before</strong> your birth.</span>
                 </p>
-            </div>
+            </div> -->
     
         </div>
     
-        <div class="carbonDioxideWrapper">
+        <!-- <div class="carbonDioxideWrapper">
             <p class="carbonDioxide"><em>Carbon dioxide in the atmosphere is measured in parts per million (ppm). Yearly average carbon figures dating back to 1958 come from Mauna Loa (Hawaii) and the South Pole. Carbon figures before 1958 come from measurements of ice core samples in Antarctica.</em></p>
           <p class="learnMoreLink"><a href="#resultsLearnMore">Learn more</a> about how the results were calculated.</p>
-        </div>	
+        </div>	 -->
     
     </div>
 
 
     <div class="chart">
       <div class="map-container">
-        <a href="https://www.statista.com/statistics/1091926/atmospheric-concentration-of-co2-historic/" rel="nofollow"><img src="https://www.statista.com/graphic/1/1091926/atmospheric-concentration-of-co2-historic.jpg" alt="Statistic: Historic average carbon dioxide (CO2) levels in the atmosphere worldwide from 1959 to 2021 (in parts per million)* | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a><br />Find more statistics at  <a href="https://www.statista.com" rel="nofollow">Statista</a>
+  <img src="https://www.statista.com/graphic/1/1091926/atmospheric-concentration-of-co2-historic.jpg" alt="Statistic: Historic average carbon dioxide (CO2) levels in the atmosphere worldwide from 1959 to 2021 (in parts per million)* | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/><br />
       </div>
     </div>
 
