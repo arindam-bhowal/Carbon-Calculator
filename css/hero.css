@@ -1,0 +1,39 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://climatecommunication.yale.edu/wp-content/uploads/2023/01/pollution-2043666_1280-768x350.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.hero p {
+    font-size: 24px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #3e8e41;
+}
