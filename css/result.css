@@ -1,0 +1,101 @@
+div.hResultsWrapper {
+    width: 100%;
+    height: 120px;
+    left: 0px;
+    display: flex;
+}
+
+p.hResults {
+    font-family: Whitney;
+    text-transform: uppercase;
+}
+div.hResults {
+    width: 335px;
+    height: 20px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+
+
+.resultsWrapper p {
+    font-size: 22px;
+    line-height: 40px;
+    margin: 0 0 20px 0;
+}
+
+
+div.hResults {
+    width: 335px;
+    height: 20px;
+    margin: 35px auto;
+    text-align: center;
+}
+p.hResults {
+    font-family: Whitney;
+    text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 769px){
+    div.resultsDataWrapper {
+        height: inherit;
+    }
+}
+
+@media only screen and (max-width: 1320px) and (min-width: 769px)
+{
+    div.resultsDataWrapper {
+        width: 100%;
+    }
+}
+
+div.resultsDataWrapper {
+    width: 1290px;
+    height: 182px;
+    margin: 0 auto 30px;
+    display: flex;
+}
+
+div.resultsBox {
+    width: 320px;
+    text-align: center;
+    margin: auto;
+}
+
+.resultsTextLine1 {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.resultsTextLine2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+
+.resultsTextLine3 {
+    font-family: Whitney;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #000000;
+}
+
+.verticalLine {
+    border-left: 1px solid #D3D3D3;
+    height: 150px;
+    width: 3px;
+    margin-top: 10px;
+}
